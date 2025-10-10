@@ -16,5 +16,10 @@ namespace DS3_SistemaEscolarBD.Catalogo.Estatus
         {
             InitializeComponent();
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

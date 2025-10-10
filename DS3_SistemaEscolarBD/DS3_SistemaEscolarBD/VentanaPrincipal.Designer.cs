@@ -72,6 +72,7 @@
             btnAcademico.TabIndex = 4;
             btnAcademico.Text = "Academico";
             btnAcademico.UseVisualStyleBackColor = true;
+            btnAcademico.Click += btnAcademico_Click;
             // 
             // btnAlumno
             // 
@@ -139,7 +140,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(12, 52);
+            label2.Location = new Point(66, 52);
             label2.Name = "label2";
             label2.Size = new Size(82, 20);
             label2.TabIndex = 12;
@@ -158,7 +159,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(251, 52);
+            label3.Location = new Point(267, 52);
             label3.Name = "label3";
             label3.Size = new Size(60, 20);
             label3.TabIndex = 17;

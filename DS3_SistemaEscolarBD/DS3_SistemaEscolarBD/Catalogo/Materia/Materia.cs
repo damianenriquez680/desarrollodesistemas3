@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace DS3_SistemaEscolarBD.Catalogo
 {
-    public partial class Materia : Form
+    public partial class Materia: Form
     {
         public Materia()
         {
@@ -27,6 +27,11 @@ namespace DS3_SistemaEscolarBD.Catalogo
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Materia_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
