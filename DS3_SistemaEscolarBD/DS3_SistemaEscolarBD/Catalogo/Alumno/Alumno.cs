@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DS3_SistemaEscolarBD.Catalogo
+namespace DS3_SistemaEscolarBD.Catalogo.Alumno
 {
     public partial class Alumno : Form
     {
@@ -20,6 +20,13 @@ namespace DS3_SistemaEscolarBD.Catalogo
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnObtenerDatos_Click(object sender, EventArgs e)
+        {
+            ConexionBD conexion = new ConexionBD();
+            string txtConsulta = "SELECT * FROM [DS3_Catalogos].[dbo].[Alumno]";
+            dgvDatosAlumno.DataSource = conexion.ObtieneDatosBDCatalogo(txtConsulta);
         }
     }
 }

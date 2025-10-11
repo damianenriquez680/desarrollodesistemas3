@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DS3_SistemaEscolarBD.Catalogo
+namespace DS3_SistemaEscolarBD.Catalogo.Academico
 {
     public partial class Academico : Form
     {
@@ -22,6 +22,11 @@ namespace DS3_SistemaEscolarBD.Catalogo
             ConexionBD conexion = new ConexionBD();
             string txtConsulta = "SELECT * FROM [DS3_Catalogos].[dbo].[Academico]";
             dgvDatosAcademico.DataSource = conexion.ObtieneDatosBDCatalogo(txtConsulta);
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

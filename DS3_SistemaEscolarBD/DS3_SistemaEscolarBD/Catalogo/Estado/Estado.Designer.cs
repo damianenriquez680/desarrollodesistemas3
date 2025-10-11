@@ -57,6 +57,7 @@
             btnObtenerDatos.Name = "btnObtenerDatos";
             btnObtenerDatos.Size = new Size(130, 24);
             btnObtenerDatos.Text = "Obtener Datos";
+            btnObtenerDatos.Click += btnObtenerDatos_Click;
             // 
             // btnAgregarNuevaVentana
             // 

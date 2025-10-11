@@ -1604,11 +1604,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj",
+      "projectUniqueName": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD_RESPALDO\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj",
       "projectName": "DS3_SistemaEscolarBD",
-      "projectPath": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj",
+      "projectPath": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD_RESPALDO\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj",
       "packagesPath": "C:\\Users\\desmi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\obj\\",
+      "outputPath": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD_RESPALDO\\DS3_SistemaEscolarBD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,4 +1,4 @@
-﻿namespace DS3_SistemaEscolarBD.Catalogo
+﻿namespace DS3_SistemaEscolarBD.Catalogo.Carrera
 {
     partial class Carrera
     {
@@ -29,16 +29,26 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Carrera));
+            dgvDatosCarrera = new DataGridView();
             toolStrip1 = new ToolStrip();
             btnObtenerDatos = new ToolStripButton();
             btnAgregarNuevaVentana = new ToolStripButton();
             btnEditarNuevaVentana = new ToolStripButton();
             btnEliminar = new ToolStripButton();
             btnSalir = new ToolStripButton();
-            dgvDatosCarrera = new DataGridView();
-            toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDatosCarrera).BeginInit();
+            toolStrip1.SuspendLayout();
             SuspendLayout();
+            // 
+            // dgvDatosCarrera
+            // 
+            dgvDatosCarrera.AccessibleName = "";
+            dgvDatosCarrera.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvDatosCarrera.Location = new Point(12, 35);
+            dgvDatosCarrera.Name = "dgvDatosCarrera";
+            dgvDatosCarrera.RowHeadersWidth = 51;
+            dgvDatosCarrera.Size = new Size(776, 408);
+            dgvDatosCarrera.TabIndex = 7;
             // 
             // toolStrip1
             // 
@@ -47,7 +57,7 @@
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
             toolStrip1.Size = new Size(800, 27);
-            toolStrip1.TabIndex = 2;
+            toolStrip1.TabIndex = 6;
             toolStrip1.Text = "toolStrip1";
             // 
             // btnObtenerDatos
@@ -57,6 +67,7 @@
             btnObtenerDatos.Name = "btnObtenerDatos";
             btnObtenerDatos.Size = new Size(130, 24);
             btnObtenerDatos.Text = "Obtener Datos";
+            btnObtenerDatos.Click += btnObtenerDatos_Click;
             // 
             // btnAgregarNuevaVentana
             // 
@@ -92,16 +103,6 @@
             btnSalir.Text = "Salir";
             btnSalir.Click += btnSalir_Click;
             // 
-            // dgvDatosCarrera
-            // 
-            dgvDatosCarrera.AccessibleName = "";
-            dgvDatosCarrera.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvDatosCarrera.Location = new Point(12, 28);
-            dgvDatosCarrera.Name = "dgvDatosCarrera";
-            dgvDatosCarrera.RowHeadersWidth = 51;
-            dgvDatosCarrera.Size = new Size(776, 408);
-            dgvDatosCarrera.TabIndex = 5;
-            // 
             // Carrera
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -109,24 +110,24 @@
             ClientSize = new Size(800, 450);
             Controls.Add(dgvDatosCarrera);
             Controls.Add(toolStrip1);
-            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "Carrera";
             Text = "Carrera";
+            ((System.ComponentModel.ISupportInitialize)dgvDatosCarrera).EndInit();
             toolStrip1.ResumeLayout(false);
             toolStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvDatosCarrera).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
+        private DataGridView dgvDatosCarrera;
         private ToolStrip toolStrip1;
         private ToolStripButton btnObtenerDatos;
         private ToolStripButton btnAgregarNuevaVentana;
         private ToolStripButton btnEditarNuevaVentana;
         private ToolStripButton btnEliminar;
         private ToolStripButton btnSalir;
-        private DataGridView dgvDatosCarrera;
     }
 }

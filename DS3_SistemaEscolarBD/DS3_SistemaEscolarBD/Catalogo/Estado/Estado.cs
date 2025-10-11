@@ -21,5 +21,12 @@ namespace DS3_SistemaEscolarBD.Catalogo.Estado
         {
             this.Close();
         }
+
+        private void btnObtenerDatos_Click(object sender, EventArgs e)
+        {
+            ConexionBD conexion = new ConexionBD();
+            string txtConsulta = "SELECT * FROM [DS3_Catalogos].[dbo].[Estado]";
+            dgvDatosEstado.DataSource = conexion.ObtieneDatosBDCatalogo(txtConsulta);
+        }
     }
 }

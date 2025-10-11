@@ -16,10 +16,16 @@ namespace DS3_SistemaEscolarBD.Catalogo.Pais
         {
             InitializeComponent();
         }
-
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnObtenerDatos_Click(object sender, EventArgs e)
+        {
+            ConexionBD conexion = new ConexionBD();
+            string txtConsulta = "SELECT * FROM [DS3_Catalogos].[dbo].[Pais]";
+            dgvDatosPais.DataSource = conexion.ObtieneDatosBDCatalogo(txtConsulta);
         }
     }
 }

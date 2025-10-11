@@ -63,6 +63,7 @@
             btnAula.TabIndex = 3;
             btnAula.Text = "Aula";
             btnAula.UseVisualStyleBackColor = true;
+            btnAula.Click += btnAula_Click;
             // 
             // btnAcademico
             // 
@@ -82,6 +83,7 @@
             btnAlumno.TabIndex = 5;
             btnAlumno.Text = "Alumno";
             btnAlumno.UseVisualStyleBackColor = true;
+            btnAlumno.Click += btnAlumno_Click;
             // 
             // btnCarrera
             // 
@@ -91,6 +93,7 @@
             btnCarrera.TabIndex = 6;
             btnCarrera.Text = "Carrera";
             btnCarrera.UseVisualStyleBackColor = true;
+            btnCarrera.Click += btnCarrera_Click;
             // 
             // btnCiudad
             // 
@@ -100,6 +103,7 @@
             btnCiudad.TabIndex = 7;
             btnCiudad.Text = "Ciudad";
             btnCiudad.UseVisualStyleBackColor = true;
+            btnCiudad.Click += btnCiudad_Click;
             // 
             // btnEstado
             // 
@@ -109,6 +113,7 @@
             btnEstado.TabIndex = 8;
             btnEstado.Text = "Estado";
             btnEstado.UseVisualStyleBackColor = true;
+            btnEstado.Click += btnEstado_Click;
             // 
             // btnPais
             // 
@@ -118,6 +123,7 @@
             btnPais.TabIndex = 9;
             btnPais.Text = "Pais";
             btnPais.UseVisualStyleBackColor = true;
+            btnPais.Click += btnPais_Click_1;
             // 
             // btnEstatus
             // 
@@ -127,6 +133,7 @@
             btnEstatus.TabIndex = 10;
             btnEstatus.Text = "Estatus";
             btnEstatus.UseVisualStyleBackColor = true;
+            btnEstatus.Click += btnEstatus_Click;
             // 
             // label1
             // 
@@ -140,7 +147,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(66, 52);
+            label2.Location = new Point(12, 52);
             label2.Name = "label2";
             label2.Size = new Size(82, 20);
             label2.TabIndex = 12;
@@ -159,7 +166,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(267, 52);
+            label3.Location = new Point(251, 52);
             label3.Name = "label3";
             label3.Size = new Size(60, 20);
             label3.TabIndex = 17;
@@ -204,8 +211,10 @@
             Controls.Add(btnAcademico);
             Controls.Add(btnAula);
             Controls.Add(btnMateria);
+            MaximizeBox = false;
             Name = "VentanaPrincipal";
             Text = "Ventana Principal";
+            Load += VentanaPrincipal_Load;
             ResumeLayout(false);
             PerformLayout();
         }

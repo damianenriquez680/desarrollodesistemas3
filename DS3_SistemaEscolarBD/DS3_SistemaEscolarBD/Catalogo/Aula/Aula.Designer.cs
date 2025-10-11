@@ -1,4 +1,4 @@
-﻿namespace DS3_SistemaEscolarBD.Catalogo
+﻿namespace DS3_SistemaEscolarBD.Catalogo.Aula
 {
     partial class Aula
     {
@@ -29,16 +29,26 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Aula));
+            dgvDatosAula = new DataGridView();
             toolStrip1 = new ToolStrip();
             btnObtenerDatos = new ToolStripButton();
             btnAgregarNuevaVentana = new ToolStripButton();
             btnEditarNuevaVentana = new ToolStripButton();
             btnEliminar = new ToolStripButton();
             btnSalir = new ToolStripButton();
-            dgvDatosAula = new DataGridView();
-            toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDatosAula).BeginInit();
+            toolStrip1.SuspendLayout();
             SuspendLayout();
+            // 
+            // dgvDatosAula
+            // 
+            dgvDatosAula.AccessibleName = "";
+            dgvDatosAula.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvDatosAula.Location = new Point(12, 36);
+            dgvDatosAula.Name = "dgvDatosAula";
+            dgvDatosAula.RowHeadersWidth = 51;
+            dgvDatosAula.Size = new Size(776, 408);
+            dgvDatosAula.TabIndex = 6;
             // 
             // toolStrip1
             // 
@@ -47,7 +57,7 @@
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
             toolStrip1.Size = new Size(800, 27);
-            toolStrip1.TabIndex = 0;
+            toolStrip1.TabIndex = 5;
             toolStrip1.Text = "toolStrip1";
             // 
             // btnObtenerDatos
@@ -57,6 +67,7 @@
             btnObtenerDatos.Name = "btnObtenerDatos";
             btnObtenerDatos.Size = new Size(130, 24);
             btnObtenerDatos.Text = "Obtener Datos";
+            btnObtenerDatos.Click += btnObtenerDatos_Click;
             // 
             // btnAgregarNuevaVentana
             // 
@@ -92,41 +103,32 @@
             btnSalir.Text = "Salir";
             btnSalir.Click += btnSalir_Click;
             // 
-            // dgvDatosAula
-            // 
-            dgvDatosAula.AccessibleName = "";
-            dgvDatosAula.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvDatosAula.Location = new Point(12, 30);
-            dgvDatosAula.Name = "dgvDatosAula";
-            dgvDatosAula.RowHeadersWidth = 51;
-            dgvDatosAula.Size = new Size(776, 408);
-            dgvDatosAula.TabIndex = 4;
-            // 
             // Aula
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            ControlBox = false;
             Controls.Add(dgvDatosAula);
             Controls.Add(toolStrip1);
-            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "Aula";
             Text = "Aula";
+            ((System.ComponentModel.ISupportInitialize)dgvDatosAula).EndInit();
             toolStrip1.ResumeLayout(false);
             toolStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvDatosAula).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
+        private DataGridView dgvDatosAula;
         private ToolStrip toolStrip1;
         private ToolStripButton btnObtenerDatos;
         private ToolStripButton btnAgregarNuevaVentana;
         private ToolStripButton btnEditarNuevaVentana;
         private ToolStripButton btnEliminar;
         private ToolStripButton btnSalir;
-        private DataGridView dgvDatosAula;
     }
 }

@@ -8,20 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DS3_SistemaEscolarBD.Catalogo
+namespace DS3_SistemaEscolarBD.Catalogo.Materia
 {
-    public partial class Materia: Form
+    public partial class Materia : Form
     {
         public Materia()
         {
             InitializeComponent();
-        }
-
-        private void btnObtenerDatos_Click(object sender, EventArgs e)
-        {
-            ConexionBD conexion = new ConexionBD();
-            string txtConsulta = "SELECT * FROM [DS3_Catalogos].[dbo].[Materia]";
-            dgvDatosMateria.DataSource = conexion.ObtieneDatosBDCatalogo(txtConsulta);
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
@@ -29,9 +22,11 @@ namespace DS3_SistemaEscolarBD.Catalogo
             this.Close();
         }
 
-        private void Materia_Load(object sender, EventArgs e)
+        private void btnObtenerDatos_Click(object sender, EventArgs e)
         {
-
+            ConexionBD conexion = new ConexionBD();
+            string txtConsulta = "SELECT * FROM [DS3_Catalogos].[dbo].[Materia]";
+            dgvDatosMateria.DataSource = conexion.ObtieneDatosBDCatalogo(txtConsulta);
         }
     }
 }

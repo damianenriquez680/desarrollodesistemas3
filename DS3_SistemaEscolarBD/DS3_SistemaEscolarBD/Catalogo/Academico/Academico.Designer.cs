@@ -1,4 +1,4 @@
-﻿namespace DS3_SistemaEscolarBD.Catalogo
+﻿namespace DS3_SistemaEscolarBD.Catalogo.Academico
 {
     partial class Academico
     {
@@ -29,16 +29,26 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Academico));
+            dgvDatosAcademico = new DataGridView();
             toolStrip1 = new ToolStrip();
             btnObtenerDatos = new ToolStripButton();
             btnAgregarNuevaVentana = new ToolStripButton();
             btnEditarNuevaVentana = new ToolStripButton();
             btnEliminar = new ToolStripButton();
             btnSalir = new ToolStripButton();
-            dgvDatosAcademico = new DataGridView();
-            toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvDatosAcademico).BeginInit();
+            toolStrip1.SuspendLayout();
             SuspendLayout();
+            // 
+            // dgvDatosAcademico
+            // 
+            dgvDatosAcademico.AccessibleName = "";
+            dgvDatosAcademico.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvDatosAcademico.Location = new Point(12, 36);
+            dgvDatosAcademico.Name = "dgvDatosAcademico";
+            dgvDatosAcademico.RowHeadersWidth = 51;
+            dgvDatosAcademico.Size = new Size(776, 408);
+            dgvDatosAcademico.TabIndex = 7;
             // 
             // toolStrip1
             // 
@@ -47,7 +57,7 @@
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
             toolStrip1.Size = new Size(800, 27);
-            toolStrip1.TabIndex = 1;
+            toolStrip1.TabIndex = 6;
             toolStrip1.Text = "toolStrip1";
             // 
             // btnObtenerDatos
@@ -91,42 +101,34 @@
             btnSalir.Name = "btnSalir";
             btnSalir.Size = new Size(62, 24);
             btnSalir.Text = "Salir";
-            // 
-            // dgvDatosAcademico
-            // 
-            dgvDatosAcademico.AccessibleName = "";
-            dgvDatosAcademico.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvDatosAcademico.Location = new Point(12, 30);
-            dgvDatosAcademico.Name = "dgvDatosAcademico";
-            dgvDatosAcademico.RowHeadersWidth = 51;
-            dgvDatosAcademico.Size = new Size(776, 408);
-            dgvDatosAcademico.TabIndex = 5;
+            btnSalir.Click += btnSalir_Click;
             // 
             // Academico
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            ControlBox = false;
             Controls.Add(dgvDatosAcademico);
             Controls.Add(toolStrip1);
-            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "Academico";
             Text = "Academico";
+            ((System.ComponentModel.ISupportInitialize)dgvDatosAcademico).EndInit();
             toolStrip1.ResumeLayout(false);
             toolStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvDatosAcademico).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
+        private DataGridView dgvDatosAcademico;
         private ToolStrip toolStrip1;
         private ToolStripButton btnObtenerDatos;
         private ToolStripButton btnAgregarNuevaVentana;
         private ToolStripButton btnEditarNuevaVentana;
         private ToolStripButton btnEliminar;
         private ToolStripButton btnSalir;
-        private DataGridView dgvDatosAcademico;
     }
 }
