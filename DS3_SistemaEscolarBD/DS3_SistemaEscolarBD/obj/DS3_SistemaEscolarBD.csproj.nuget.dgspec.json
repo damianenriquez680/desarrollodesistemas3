@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\DESARROLLO_3\\Sistema_Escolar_DS\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj": {}
+    "C:\\Users\\sabas\\source\\repos\\desarrollodesistemas3\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\DESARROLLO_3\\Sistema_Escolar_DS\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj": {
+    "C:\\Users\\sabas\\source\\repos\\desarrollodesistemas3\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\DESARROLLO_3\\Sistema_Escolar_DS\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj",
+        "projectUniqueName": "C:\\Users\\sabas\\source\\repos\\desarrollodesistemas3\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj",
         "projectName": "DS3_SistemaEscolarBD",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\DESARROLLO_3\\Sistema_Escolar_DS\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\DESARROLLO_3\\Sistema_Escolar_DS\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\obj\\",
+        "projectPath": "C:\\Users\\sabas\\source\\repos\\desarrollodesistemas3\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj",
+        "packagesPath": "C:\\Users\\sabas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sabas\\source\\repos\\desarrollodesistemas3\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sabas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
