@@ -16,5 +16,10 @@ namespace DS3_SistemaEscolarBD.Catalogo.Pais
         {
             InitializeComponent();
         }
+
+        private void AgregarEditar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -16,5 +16,10 @@ namespace DS3_SistemaEscolarBD.Catalogo.Estatus
         {
             InitializeComponent();
         }
+
+        private void AgregarEditar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
