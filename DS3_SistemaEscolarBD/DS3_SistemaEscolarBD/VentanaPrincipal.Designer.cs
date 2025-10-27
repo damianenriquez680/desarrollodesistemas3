@@ -47,7 +47,7 @@
             // 
             // btnMateria
             // 
-            btnMateria.Location = new Point(12, 75);
+            btnMateria.Location = new Point(23, 117);
             btnMateria.Name = "btnMateria";
             btnMateria.Size = new Size(94, 29);
             btnMateria.TabIndex = 2;
@@ -57,7 +57,7 @@
             // 
             // btnAula
             // 
-            btnAula.Location = new Point(12, 110);
+            btnAula.Location = new Point(23, 152);
             btnAula.Name = "btnAula";
             btnAula.Size = new Size(94, 29);
             btnAula.TabIndex = 3;
@@ -67,7 +67,7 @@
             // 
             // btnAcademico
             // 
-            btnAcademico.Location = new Point(12, 145);
+            btnAcademico.Location = new Point(23, 187);
             btnAcademico.Name = "btnAcademico";
             btnAcademico.Size = new Size(94, 29);
             btnAcademico.TabIndex = 4;
@@ -77,7 +77,7 @@
             // 
             // btnAlumno
             // 
-            btnAlumno.Location = new Point(12, 180);
+            btnAlumno.Location = new Point(23, 222);
             btnAlumno.Name = "btnAlumno";
             btnAlumno.Size = new Size(94, 29);
             btnAlumno.TabIndex = 5;
@@ -87,7 +87,7 @@
             // 
             // btnCarrera
             // 
-            btnCarrera.Location = new Point(12, 215);
+            btnCarrera.Location = new Point(23, 257);
             btnCarrera.Name = "btnCarrera";
             btnCarrera.Size = new Size(94, 29);
             btnCarrera.TabIndex = 6;
@@ -97,7 +97,7 @@
             // 
             // btnCiudad
             // 
-            btnCiudad.Location = new Point(112, 75);
+            btnCiudad.Location = new Point(123, 117);
             btnCiudad.Name = "btnCiudad";
             btnCiudad.Size = new Size(94, 29);
             btnCiudad.TabIndex = 7;
@@ -107,7 +107,7 @@
             // 
             // btnEstado
             // 
-            btnEstado.Location = new Point(112, 110);
+            btnEstado.Location = new Point(123, 152);
             btnEstado.Name = "btnEstado";
             btnEstado.Size = new Size(94, 29);
             btnEstado.TabIndex = 8;
@@ -117,7 +117,7 @@
             // 
             // btnPais
             // 
-            btnPais.Location = new Point(112, 145);
+            btnPais.Location = new Point(123, 187);
             btnPais.Name = "btnPais";
             btnPais.Size = new Size(94, 29);
             btnPais.TabIndex = 9;
@@ -127,7 +127,7 @@
             // 
             // btnEstatus
             // 
-            btnEstatus.Location = new Point(112, 180);
+            btnEstatus.Location = new Point(123, 222);
             btnEstatus.Name = "btnEstatus";
             btnEstatus.Size = new Size(94, 29);
             btnEstatus.TabIndex = 10;
@@ -138,7 +138,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(23, 13);
             label1.Name = "label1";
             label1.Size = new Size(160, 20);
             label1.TabIndex = 11;
@@ -147,7 +147,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(12, 52);
+            label2.Location = new Point(23, 94);
             label2.Name = "label2";
             label2.Size = new Size(82, 20);
             label2.TabIndex = 12;
@@ -155,7 +155,7 @@
             // 
             // btnSalir
             // 
-            btnSalir.Location = new Point(341, 5);
+            btnSalir.Location = new Point(416, 9);
             btnSalir.Name = "btnSalir";
             btnSalir.Size = new Size(94, 29);
             btnSalir.TabIndex = 13;
@@ -166,7 +166,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(251, 52);
+            label3.Location = new Point(325, 94);
             label3.Name = "label3";
             label3.Size = new Size(60, 20);
             label3.TabIndex = 17;
@@ -174,27 +174,30 @@
             // 
             // btnReinscripción
             // 
-            btnReinscripción.Location = new Point(251, 110);
+            btnReinscripción.Location = new Point(325, 152);
             btnReinscripción.Name = "btnReinscripción";
             btnReinscripción.Size = new Size(105, 29);
             btnReinscripción.TabIndex = 15;
             btnReinscripción.Text = "Reinscripcion";
             btnReinscripción.UseVisualStyleBackColor = true;
+            btnReinscripción.Click += btnReinscripción_Click;
             // 
             // btnGrupo
             // 
-            btnGrupo.Location = new Point(251, 75);
+            btnGrupo.Location = new Point(325, 117);
             btnGrupo.Name = "btnGrupo";
             btnGrupo.Size = new Size(94, 29);
             btnGrupo.TabIndex = 14;
             btnGrupo.Text = "Grupo";
             btnGrupo.UseVisualStyleBackColor = true;
+            btnGrupo.Click += btnGrupo_Click;
             // 
             // VentanaPrincipal
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(447, 287);
+            BackgroundImage = Properties.Resources.principal21;
+            ClientSize = new Size(533, 402);
             ControlBox = false;
             Controls.Add(label3);
             Controls.Add(btnReinscripción);
@@ -211,10 +214,11 @@
             Controls.Add(btnAcademico);
             Controls.Add(btnAula);
             Controls.Add(btnMateria);
+            Location = new Point(551, 449);
             MaximizeBox = false;
+            MaximumSize = new Size(551, 449);
             Name = "VentanaPrincipal";
             Text = "Ventana Principal";
-            Load += VentanaPrincipal_Load;
             ResumeLayout(false);
             PerformLayout();
         }

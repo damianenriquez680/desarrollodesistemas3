@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4P4ubOKBU6E=",
+  "dgSpecHash": "v29mqJr3idM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD_RESPALDO\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj",
+  "projectFilePath": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\desmi\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\desmi\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

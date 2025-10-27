@@ -43,6 +43,12 @@
     <Compile Update="Catalogo\Estatus\Estatus.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Catalogo\Grupo\AgregarEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Catalogo\Grupo\Grupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Catalogo\Materia\AgregarEditar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,13 +61,13 @@
     <Compile Update="Catalogo\Pais\Pais.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Catalogo\Reinscripcion\AgregarEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Catalogo\Reinscripcion\Reinscripcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Splashscreen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Tablas\Grupo\Grupo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Tablas\Reinscripcion\Reincripcion.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="VentanaPrincipal.cs">

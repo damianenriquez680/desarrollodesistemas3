@@ -43,20 +43,22 @@
             // dgvDatosCiudad
             // 
             dgvDatosCiudad.AccessibleName = "";
+            dgvDatosCiudad.BackgroundColor = Color.FromArgb(255, 255, 192);
             dgvDatosCiudad.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvDatosCiudad.Location = new Point(12, 36);
+            dgvDatosCiudad.Location = new Point(21, 47);
             dgvDatosCiudad.Name = "dgvDatosCiudad";
             dgvDatosCiudad.RowHeadersWidth = 51;
-            dgvDatosCiudad.Size = new Size(776, 408);
+            dgvDatosCiudad.Size = new Size(956, 383);
             dgvDatosCiudad.TabIndex = 8;
             // 
             // toolStrip1
             // 
+            toolStrip1.BackColor = Color.Transparent;
             toolStrip1.ImageScalingSize = new Size(20, 20);
             toolStrip1.Items.AddRange(new ToolStripItem[] { btnObtenerDatos, btnAgregarNuevaVentana, btnEditarNuevaVentana, btnEliminar, btnSalir });
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
-            toolStrip1.Size = new Size(800, 27);
+            toolStrip1.Size = new Size(1012, 27);
             toolStrip1.TabIndex = 7;
             toolStrip1.Text = "toolStrip1";
             // 
@@ -74,16 +76,18 @@
             btnAgregarNuevaVentana.Image = (Image)resources.GetObject("btnAgregarNuevaVentana.Image");
             btnAgregarNuevaVentana.ImageTransparentColor = Color.Magenta;
             btnAgregarNuevaVentana.Name = "btnAgregarNuevaVentana";
-            btnAgregarNuevaVentana.Size = new Size(190, 24);
-            btnAgregarNuevaVentana.Text = "Agregar Nueva Ventana";
+            btnAgregarNuevaVentana.Size = new Size(130, 24);
+            btnAgregarNuevaVentana.Text = "Agregar Datos";
+            btnAgregarNuevaVentana.Click += btnAgregarNuevaVentana_Click;
             // 
             // btnEditarNuevaVentana
             // 
             btnEditarNuevaVentana.Image = (Image)resources.GetObject("btnEditarNuevaVentana.Image");
             btnEditarNuevaVentana.ImageTransparentColor = Color.Magenta;
             btnEditarNuevaVentana.Name = "btnEditarNuevaVentana";
-            btnEditarNuevaVentana.Size = new Size(175, 24);
-            btnEditarNuevaVentana.Text = "Editar Nueva Ventana";
+            btnEditarNuevaVentana.Size = new Size(115, 24);
+            btnEditarNuevaVentana.Text = "Editar Datos";
+            btnEditarNuevaVentana.Click += btnEditarNuevaVentana_Click;
             // 
             // btnEliminar
             // 
@@ -92,6 +96,7 @@
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(87, 24);
             btnEliminar.Text = "Eliminar";
+            btnEliminar.Click += btnEliminar_Click;
             // 
             // btnSalir
             // 
@@ -107,9 +112,15 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = Properties.Resources.materia;
+            ClientSize = new Size(1012, 623);
             Controls.Add(dgvDatosCiudad);
             Controls.Add(toolStrip1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
+            MaximumSize = new Size(1030, 670);
+            MinimizeBox = false;
+            MinimumSize = new Size(1030, 670);
             Name = "Ciudad";
             Text = "Ciudad";
             ((System.ComponentModel.ISupportInitialize)dgvDatosCiudad).EndInit();

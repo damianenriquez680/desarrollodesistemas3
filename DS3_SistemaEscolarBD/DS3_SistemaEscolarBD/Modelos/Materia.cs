@@ -8,6 +8,8 @@ namespace DS3_SistemaEscolarBD.Modelos
 {
     public class Materia
     {
+        public string NombreMateria { get; set; }
+        public int Creditos { get; set; }
     }
 }
     

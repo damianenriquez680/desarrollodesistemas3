@@ -8,5 +8,7 @@ namespace DS3_SistemaEscolarBD.Modelos
 {
     public class Pais
     {
+        public string NombrePais { get; set; }
+        public string SiglaPais { get; set; }
     }
 }

@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD_RESPALDO\\",
+  "WorkspaceRootPath": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C90DBAB-F804-41F5-AFB1-6F05D8E6221F}|DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj|c:\\users\\desmi\\source\\repos\\ds3_sistemaescolarbd_respaldo\\ds3_sistemaescolarbd\\catalogo\\aula\\agregareditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0C90DBAB-F804-41F5-AFB1-6F05D8E6221F}|DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj|solutionrelative:ds3_sistemaescolarbd\\catalogo\\aula\\agregareditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C90DBAB-F804-41F5-AFB1-6F05D8E6221F}|DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj|c:\\users\\desmi\\source\\repos\\ds3_sistemaescolarbd_respaldo\\ds3_sistemaescolarbd\\catalogo\\alumno\\agregareditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0C90DBAB-F804-41F5-AFB1-6F05D8E6221F}|DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj|solutionrelative:ds3_sistemaescolarbd\\catalogo\\alumno\\agregareditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C90DBAB-F804-41F5-AFB1-6F05D8E6221F}|DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj|c:\\users\\desmi\\source\\repos\\ds3_sistemaescolarbd_respaldo\\ds3_sistemaescolarbd\\catalogo\\academico\\agregareditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0C90DBAB-F804-41F5-AFB1-6F05D8E6221F}|DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj|solutionrelative:ds3_sistemaescolarbd\\catalogo\\academico\\agregareditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0C90DBAB-F804-41F5-AFB1-6F05D8E6221F}|DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj|c:\\users\\desmi\\source\\repos\\ds3_sistemaescolarbd\\ds3_sistemaescolarbd\\ventanaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C90DBAB-F804-41F5-AFB1-6F05D8E6221F}|DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj|solutionrelative:ds3_sistemaescolarbd\\ventanaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,37 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AgregarEditar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD_RESPALDO\\DS3_SistemaEscolarBD\\Catalogo\\Aula\\AgregarEditar.cs",
-              "RelativeDocumentMoniker": "DS3_SistemaEscolarBD\\Catalogo\\Aula\\AgregarEditar.cs",
-              "ToolTip": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD_RESPALDO\\DS3_SistemaEscolarBD\\Catalogo\\Aula\\AgregarEditar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "DS3_SistemaEscolarBD\\Catalogo\\Aula\\AgregarEditar.cs [Dise\u00F1o]",
+              "Title": "VentanaPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\VentanaPrincipal.cs",
+              "RelativeDocumentMoniker": "DS3_SistemaEscolarBD\\VentanaPrincipal.cs",
+              "ToolTip": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\VentanaPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "DS3_SistemaEscolarBD\\VentanaPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T22:00:53.788Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AgregarEditar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD_RESPALDO\\DS3_SistemaEscolarBD\\Catalogo\\Alumno\\AgregarEditar.cs",
-              "RelativeDocumentMoniker": "DS3_SistemaEscolarBD\\Catalogo\\Alumno\\AgregarEditar.cs",
-              "ToolTip": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD_RESPALDO\\DS3_SistemaEscolarBD\\Catalogo\\Alumno\\AgregarEditar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "DS3_SistemaEscolarBD\\Catalogo\\Alumno\\AgregarEditar.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T21:59:15.027Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AgregarEditar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD_RESPALDO\\DS3_SistemaEscolarBD\\Catalogo\\Academico\\AgregarEditar.cs",
-              "RelativeDocumentMoniker": "DS3_SistemaEscolarBD\\Catalogo\\Academico\\AgregarEditar.cs",
-              "ToolTip": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD_RESPALDO\\DS3_SistemaEscolarBD\\Catalogo\\Academico\\AgregarEditar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "DS3_SistemaEscolarBD\\Catalogo\\Academico\\AgregarEditar.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T21:59:12.328Z",
+              "WhenOpened": "2025-10-27T00:04:33.443Z",
+              "IsPinned": true,
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

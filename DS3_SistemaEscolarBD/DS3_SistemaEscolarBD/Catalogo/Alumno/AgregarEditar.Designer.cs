@@ -28,76 +28,76 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AgregarEditar));
             toolStrip1 = new ToolStrip();
             btnGuardar = new ToolStripButton();
             Cancelar = new ToolStripButton();
-            txtEstatus = new TextBox();
             label3 = new Label();
-            textBox1 = new TextBox();
+            txtApellidos = new TextBox();
             label2 = new Label();
             txtNombre = new TextBox();
             label1 = new Label();
-            dtpFechaHora = new DateTimePicker();
+            cbEstatus = new ComboBox();
+            cbCiudad = new ComboBox();
             label4 = new Label();
-            txtIDMateria = new TextBox();
-            label7 = new Label();
+            cbCarrera = new ComboBox();
+            label5 = new Label();
             toolStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // toolStrip1
             // 
+            toolStrip1.BackColor = Color.Transparent;
+            toolStrip1.GripMargin = new Padding(6, 2, 2, 2);
             toolStrip1.ImageScalingSize = new Size(20, 20);
             toolStrip1.Items.AddRange(new ToolStripItem[] { btnGuardar, Cancelar });
             toolStrip1.Location = new Point(0, 0);
+            toolStrip1.MaximumSize = new Size(367, 260);
             toolStrip1.Name = "toolStrip1";
-            toolStrip1.Size = new Size(532, 27);
+            toolStrip1.Size = new Size(349, 27);
             toolStrip1.TabIndex = 36;
             toolStrip1.Text = "toolStrip1";
             // 
             // btnGuardar
             // 
-            btnGuardar.Image = (Image)resources.GetObject("btnGuardar.Image");
+            btnGuardar.Image = Properties.Resources.guardar;
             btnGuardar.ImageTransparentColor = Color.Magenta;
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(86, 24);
             btnGuardar.Text = "Guardar";
+            btnGuardar.Click += btnGuardar_Click;
             // 
             // Cancelar
             // 
-            Cancelar.Image = (Image)resources.GetObject("Cancelar.Image");
+            Cancelar.Image = Properties.Resources.Cancelar;
             Cancelar.ImageTransparentColor = Color.Magenta;
             Cancelar.Name = "Cancelar";
             Cancelar.Size = new Size(90, 24);
             Cancelar.Text = "Cancelar";
-            // 
-            // txtEstatus
-            // 
-            txtEstatus.Location = new Point(181, 189);
-            txtEstatus.Name = "txtEstatus";
-            txtEstatus.Size = new Size(147, 27);
-            txtEstatus.TabIndex = 56;
+            Cancelar.Click += Cancelar_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(117, 192);
+            label3.BackColor = Color.FromArgb(255, 255, 192);
+            label3.Location = new Point(58, 119);
             label3.Name = "label3";
             label3.Size = new Size(58, 20);
             label3.TabIndex = 55;
             label3.Text = "Estatus:";
             // 
-            // textBox1
+            // txtApellidos
             // 
-            textBox1.Location = new Point(181, 138);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(147, 27);
-            textBox1.TabIndex = 54;
+            txtApellidos.BackColor = Color.FromArgb(255, 255, 192);
+            txtApellidos.Location = new Point(122, 83);
+            txtApellidos.Name = "txtApellidos";
+            txtApellidos.Size = new Size(189, 27);
+            txtApellidos.TabIndex = 54;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(100, 141);
+            label2.BackColor = Color.FromArgb(255, 255, 192);
+            label2.Location = new Point(41, 86);
             label2.Name = "label2";
             label2.Size = new Size(75, 20);
             label2.TabIndex = 53;
@@ -105,74 +105,95 @@
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(181, 91);
+            txtNombre.BackColor = Color.FromArgb(255, 255, 192);
+            txtNombre.Location = new Point(122, 50);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(147, 27);
+            txtNombre.Size = new Size(189, 27);
             txtNombre.TabIndex = 52;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(108, 94);
+            label1.BackColor = Color.FromArgb(255, 255, 192);
+            label1.Location = new Point(49, 53);
             label1.Name = "label1";
             label1.Size = new Size(67, 20);
             label1.TabIndex = 51;
             label1.Text = "Nombre:";
             // 
-            // dtpFechaHora
+            // cbEstatus
             // 
-            dtpFechaHora.AccessibleRole = AccessibleRole.ScrollBar;
-            dtpFechaHora.Location = new Point(181, 235);
-            dtpFechaHora.Name = "dtpFechaHora";
-            dtpFechaHora.Size = new Size(312, 27);
-            dtpFechaHora.TabIndex = 50;
+            cbEstatus.BackColor = Color.FromArgb(255, 255, 192);
+            cbEstatus.FormattingEnabled = true;
+            cbEstatus.Items.AddRange(new object[] { "Activo", "Inactivo", "Egresado", "Baja definitiva" });
+            cbEstatus.Location = new Point(122, 116);
+            cbEstatus.Name = "cbEstatus";
+            cbEstatus.Size = new Size(189, 28);
+            cbEstatus.TabIndex = 56;
+            // 
+            // cbCiudad
+            // 
+            cbCiudad.BackColor = Color.FromArgb(255, 255, 192);
+            cbCiudad.FormattingEnabled = true;
+            cbCiudad.Items.AddRange(new object[] { "Activo", "Inactivo", "Egresado", "Baja definitiva" });
+            cbCiudad.Location = new Point(122, 184);
+            cbCiudad.Name = "cbCiudad";
+            cbCiudad.Size = new Size(189, 28);
+            cbCiudad.TabIndex = 58;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(26, 240);
+            label4.BackColor = Color.FromArgb(255, 255, 192);
+            label4.Location = new Point(57, 187);
             label4.Name = "label4";
-            label4.Size = new Size(149, 20);
-            label4.TabIndex = 49;
-            label4.Text = "Fecha Hora Creacion:";
+            label4.Size = new Size(59, 20);
+            label4.TabIndex = 57;
+            label4.Text = "Ciudad:";
             // 
-            // txtIDMateria
+            // cbCarrera
             // 
-            txtIDMateria.Location = new Point(181, 45);
-            txtIDMateria.Name = "txtIDMateria";
-            txtIDMateria.ReadOnly = true;
-            txtIDMateria.Size = new Size(147, 27);
-            txtIDMateria.TabIndex = 48;
+            cbCarrera.BackColor = Color.FromArgb(255, 255, 192);
+            cbCarrera.FormattingEnabled = true;
+            cbCarrera.Items.AddRange(new object[] { "Activo", "Inactivo", "Egresado", "Baja definitiva" });
+            cbCarrera.Location = new Point(122, 150);
+            cbCarrera.Name = "cbCarrera";
+            cbCarrera.Size = new Size(189, 28);
+            cbCarrera.TabIndex = 60;
             // 
-            // label7
+            // label5
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(93, 48);
-            label7.Name = "label7";
-            label7.Size = new Size(82, 20);
-            label7.TabIndex = 47;
-            label7.Text = "ID Materia:";
+            label5.AutoSize = true;
+            label5.BackColor = Color.FromArgb(255, 255, 192);
+            label5.Location = new Point(56, 153);
+            label5.Name = "label5";
+            label5.Size = new Size(60, 20);
+            label5.TabIndex = 59;
+            label5.Text = "Carrera:";
             // 
             // AgregarEditar
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(532, 297);
+            BackgroundImage = Properties.Resources.agregareditar2;
+            ClientSize = new Size(349, 213);
             ControlBox = false;
-            Controls.Add(txtEstatus);
+            Controls.Add(cbCarrera);
+            Controls.Add(label5);
+            Controls.Add(cbCiudad);
+            Controls.Add(label4);
+            Controls.Add(cbEstatus);
             Controls.Add(label3);
-            Controls.Add(textBox1);
+            Controls.Add(txtApellidos);
             Controls.Add(label2);
             Controls.Add(txtNombre);
             Controls.Add(label1);
-            Controls.Add(dtpFechaHora);
-            Controls.Add(label4);
-            Controls.Add(txtIDMateria);
-            Controls.Add(label7);
             Controls.Add(toolStrip1);
             MaximizeBox = false;
+            MaximumSize = new Size(367, 260);
+            MinimumSize = new Size(367, 260);
             Name = "AgregarEditar";
-            Text = "AgregarEditar";
+            Text = "Agregar y Editar";
             toolStrip1.ResumeLayout(false);
             toolStrip1.PerformLayout();
             ResumeLayout(false);
@@ -184,15 +205,15 @@
         private ToolStrip toolStrip1;
         private ToolStripButton btnGuardar;
         private ToolStripButton Cancelar;
-        private TextBox txtEstatus;
         private Label label3;
-        private TextBox textBox1;
+        private TextBox txtApellidos;
         private Label label2;
         private TextBox txtNombre;
         private Label label1;
-        private DateTimePicker dtpFechaHora;
+        private ComboBox cbEstatus;
+        private ComboBox cbCiudad;
         private Label label4;
-        private TextBox txtIDMateria;
-        private Label label7;
+        private ComboBox cbCarrera;
+        private Label label5;
     }
 }

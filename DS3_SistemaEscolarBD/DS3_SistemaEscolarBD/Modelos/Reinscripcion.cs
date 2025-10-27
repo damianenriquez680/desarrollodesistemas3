@@ -8,5 +8,8 @@ namespace DS3_SistemaEscolarBD.Modelos
 {
     public class Reinscripcion
     {
+        public string Calificacion { get; set; }
+        public int IDGrupo { get; set; }
+        public int IDAlumno { get; set; }
     }
 }

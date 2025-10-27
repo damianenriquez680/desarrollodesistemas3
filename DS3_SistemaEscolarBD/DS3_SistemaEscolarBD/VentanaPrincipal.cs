@@ -70,9 +70,16 @@ namespace DS3_SistemaEscolarBD
             estatus.ShowDialog();
         }
 
-        private void VentanaPrincipal_Load(object sender, EventArgs e)
+        private void btnGrupo_Click(object sender, EventArgs e)
         {
+            Catalogo.Grupo.Grupo grupo = new Catalogo.Grupo.Grupo();
+            grupo.ShowDialog();
+        }
 
+        private void btnReinscripción_Click(object sender, EventArgs e)
+        {
+            Catalogo.Reinscripcion.Reinscripcion reincripcion = new Catalogo.Reinscripcion.Reinscripcion();
+            reincripcion.ShowDialog();
         }
     }
 }

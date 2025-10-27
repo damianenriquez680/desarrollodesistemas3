@@ -8,5 +8,12 @@ namespace DS3_SistemaEscolarBD.Modelos
 {
     public class Grupo
     {
+        public int Alumno { get; set; }
+        public int Maestro { get; set; }
+        public int Aula { get; set; }
+        public int Carrera { get; set; }
+        public string Horario { get; set; }
+        public int Materia { get; set; }
+
     }
 }
