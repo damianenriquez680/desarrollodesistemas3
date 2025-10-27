@@ -14,7 +14,11 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DS3_SistemaEscolarBD
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\desmi\source\repos\DS3_SistemaEscolarBD\DS3_SistemaEscolarBD\
+=======
+build_property.ProjectDir = C:\Users\sabas\source\repos\desarrollodesistemas3\DS3_SistemaEscolarBD\DS3_SistemaEscolarBD\
+>>>>>>> 203f46e84a15e22024fe3f5effa139c108f0858b
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

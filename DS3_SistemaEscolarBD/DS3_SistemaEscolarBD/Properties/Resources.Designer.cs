@@ -59,6 +59,7 @@ namespace DS3_SistemaEscolarBD.Properties {
                 resourceCulture = value;
             }
         }
+<<<<<<< HEAD
         
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -159,5 +160,7 @@ namespace DS3_SistemaEscolarBD.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+=======
+>>>>>>> 203f46e84a15e22024fe3f5effa139c108f0858b
     }
 }

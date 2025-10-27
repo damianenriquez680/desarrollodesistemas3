@@ -1598,23 +1598,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\desmi\\.nuget\\packages\\": {},
+    "C:\\Users\\sabas\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj",
       "projectName": "DS3_SistemaEscolarBD",
       "projectPath": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj",
       "packagesPath": "C:\\Users\\desmi\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\desmi\\source\\repos\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\sabas\\source\\repos\\desarrollodesistemas3\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj",
+      "projectName": "DS3_SistemaEscolarBD",
+      "projectPath": "C:\\Users\\sabas\\source\\repos\\desarrollodesistemas3\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD.csproj",
+      "packagesPath": "C:\\Users\\sabas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sabas\\source\\repos\\desarrollodesistemas3\\DS3_SistemaEscolarBD\\DS3_SistemaEscolarBD\\obj\\",
+>>>>>>> 203f46e84a15e22024fe3f5effa139c108f0858b
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\desmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sabas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
